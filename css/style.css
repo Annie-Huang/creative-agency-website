@@ -264,6 +264,40 @@ section.home {
   width: 100%;
 }
 
+.contact-form .row {
+  width: 100%;
+  display: flex;
+}
+
+.contact-form .input50 {
+  width: 50%;
+  margin: 0 10px;
+}
+
+.contact-form .input100 {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.contact-form .row input,
+.contact-form .row textarea {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #111;
+  background: transparent;
+  width: 100%;
+  padding: 10px;
+  outline: none; /* otherwise, Chrome will default make the border thick in black color by default  when it's on focus*/
+  font-size: 16px;
+  font-weight: 300;
+  margin: 10px 0; /* the left and right margin is default under the input 50 input 100 level already */
+  resize: none; /* resize is for the textarea */
+}
+
+.contact-form .row textarea {
+  height: 150px;
+}
+
 @media (max-width: 1068px) {
   .home-img {
     display: none;
