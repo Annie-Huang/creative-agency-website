@@ -159,3 +159,9 @@ section {
   right: 0;
   height: 110%; /* Get the image to change according to the window size */
 }
+
+@media (max-width: 1068px) {
+  .home-img {
+    display: none;
+  }
+}
