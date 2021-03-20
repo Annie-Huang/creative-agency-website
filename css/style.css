@@ -164,4 +164,14 @@ section {
   .home-img {
     display: none;
   }
+
+  .logo {
+    top: 10px;
+    left: 40px;
+    font-size: 1.5rem;
+  }
+
+  section {
+    padding: 100px 40px;
+  }
 }
