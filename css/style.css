@@ -226,6 +226,11 @@ section.home {
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.portfolio .item:hover .action {
   opacity: 1;
 }
 
