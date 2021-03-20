@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
+:root {
+  --primary-color: #f60f20;
+}
+
 /* BASE STYLES */
 * {
   box-sizing: border-box;
@@ -35,7 +39,7 @@ section {
 .btn {
   cursor: pointer;
   display: inline-block;
-  background: #f60f20;
+  background: var(--primary-color);
   color: #fff;
   text-decoration: none;
   padding: 10px 30px;
@@ -64,7 +68,7 @@ section {
   height: 60px;
 
   /* It's a bit confusing why putting the background-size before background will make it much bigger */
-  background: #f60f20 url('../images/menu.png') no-repeat center;
+  background: var(--primary-color) url('../images/menu.png') no-repeat center;
   background-size: 30px;
 
   z-index: 20;
