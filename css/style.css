@@ -12,6 +12,17 @@ body {
   color: #111;
 }
 
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+p {
+  margin: 20px 0 10px;
+  /* by default 1rem is 16px, or related to body font-size if it's set there */
+  font-size: 1.1rem;
+}
+
 section {
   display: flex;
   height: 100vh;
@@ -29,6 +40,8 @@ section {
 }
 
 .home-content {
+  position: relative; /* Not sure why we need this, it's be default relative */
+
   /* Because home-img is absolute positioning, without this, the text will go behide the image */
   z-index: 10;
 
