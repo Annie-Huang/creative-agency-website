@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
+/* BASE STYLES */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -30,6 +31,7 @@ section {
   padding: 100px;
 }
 
+/* BUTTON */
 .btn {
   cursor: pointer;
   display: inline-block;
@@ -53,6 +55,14 @@ section {
   z-index: 10;
 }
 
+/* TOGGLE */
+
+/* NAVIGATION */
+.navigation {
+  display: none;
+}
+
+/* HOMEPAGE */
 .home-content {
   position: relative; /* Not sure why we need this, it's be default relative */
 
@@ -67,8 +77,4 @@ section {
   bottom: 0;
   right: 0;
   height: 110%; /* Get the image to change according to the window size */
-}
-
-.navigation {
-  display: none;
 }
