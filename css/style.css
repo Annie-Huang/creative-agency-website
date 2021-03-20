@@ -243,6 +243,27 @@ section.home {
   padding: 5px 15px;
 }
 
+/* CONTACT */
+.contact {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact-form {
+  position: relative; /* Why keep doing this? */
+  background: #f9f9f9; /* the form itself default for a grey background */
+  width: calc(100% - 400px);
+  padding: 60px 40px 20px;
+}
+
+.contact-form form {
+  width: 100%;
+}
+
 @media (max-width: 1068px) {
   .home-img {
     display: none;
