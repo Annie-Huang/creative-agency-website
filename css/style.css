@@ -201,6 +201,7 @@ section.home {
 .portfolio {
   display: flex;
   flex-wrap: wrap; /* auto wrapped to the next line if there is not enough space */
+  justify-content: center;
   margin-top: 20px;
 }
 
